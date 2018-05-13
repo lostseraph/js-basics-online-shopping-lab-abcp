@@ -47,6 +47,7 @@ function viewCart() {
 
   return console.log(string);
 }
+}
 
 function total() {
   // write your code here
