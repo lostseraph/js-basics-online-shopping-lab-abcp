@@ -43,10 +43,10 @@ function viewCart() {
           text = ", ";
       }
       string += `${Object.keys(cart[i])} at $${cart[i][Object.keys(cart[i])]}` + text + `${i === cart.length - 1 ? '.' : ''}`;
+    }
   }
 
   return console.log(string);
-}
 }
 
 function total() {
